@@ -46,7 +46,6 @@ export function Register() {
               autoComplete="given-name"
               required
               onChange={(e) => setFirstName(e.target.value)}
-              placeholder="Ada"
             />
           </label>
           <label className="field">
@@ -57,7 +56,6 @@ export function Register() {
               autoComplete="family-name"
               required
               onChange={(e) => setLastName(e.target.value)}
-              placeholder="Lovelace"
             />
           </label>
         </div>
