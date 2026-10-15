@@ -1,7 +1,16 @@
 # MiniCloud — Frontend
 
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)
+
 A developer-tool style frontend for **MiniCloud**, a mini Heroku/Railway-style
 deployment platform. Built with Vite + React 18 + TypeScript and plain CSS.
+
+**🔗 Live demo:** https://app.3.110.222.63.sslip.io · login `demo@minicloud.local` / `password123`
+_(demo box — may be offline to save cost.)_
+
+**🔌 Backend (API + worker):** [minicloud-backend](https://github.com/sidharth-rawat/minicloud-backend) — see its [System Design](https://github.com/sidharth-rawat/minicloud-backend/blob/main/SYSTEM_DESIGN.md).
 
 ## Features
 
