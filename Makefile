@@ -1,7 +1,10 @@
 # MiniCloud frontend — common tasks. Run `make` or `make help` to list them.
 
+# Web root the production server serves the built files from (override if needed).
+WEBROOT ?= /var/www/minicloud
+
 .DEFAULT_GOAL := help
-.PHONY: help install dev build preview
+.PHONY: help install dev build preview publish
 
 help: ## Show this help
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) \
@@ -18,3 +21,6 @@ build: ## Type-check + production build (dist/)
 
 preview: ## Preview the production build locally
 	npm run preview
+
+publish: build ## (server) Build + copy dist/ into the web root Caddy serves
+	sudo cp -r dist/* $(WEBROOT)/
