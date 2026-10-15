@@ -7,9 +7,7 @@
 Developer-tool style dashboard for **MiniCloud** (a mini Heroku/Railway-style
 deployment platform). Vite + React 18 + TypeScript, plain CSS.
 
-**🔗 Live demo:** https://app.3.110.222.63.sslip.io · login `demo@minicloud.local` / `password123`
-
-**🔌 Backend:** [minicloud-backend](https://github.com/sidharth-rawat/minicloud-backend) · [System Design](https://github.com/sidharth-rawat/minicloud-backend/blob/main/SYSTEM_DESIGN.md)
+**🔌 Backend:** [minicloud-backend](https://github.com/sidharth-rawat/minicloud-backend) · [System Design](https://github.com/sidharth-rawat/minicloud-backend/blob/main/SYSTEM_DESIGN.md) · [Deploy guide](https://github.com/sidharth-rawat/minicloud-backend/blob/main/DEPLOY.md)
 
 ## Features
 
